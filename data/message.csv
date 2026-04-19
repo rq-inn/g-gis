@@ -1,0 +1,158 @@
+key,name_L1,name_L2,name_L3
+APP_TITLE,Glorantha GIS,Glorantha GIS,Glorantha GIS
+LANGUAGE_FIXED_LABEL,Language,Language,Language
+LANGUAGE,Language,言語,語言
+IMAGE_LOAD_BUTTON,PNG Load,PNG読込,PNG讀取
+IMAGE_LOAD_PROMPT,Please load image data,画像データを読み込ませてください,請載入圖片資料
+LAYER_LIST_EMPTY,Loaded images will appear here,読み込まれた画像はここに表示されます,已載入的圖片會顯示於此
+IMAGE_LOAD_FAILED,Image failed to load,画像の読み込みに失敗しました,圖片載入失敗
+RESOLUTION_RECOMMEND,Recommended resolution: 1366 x 768 or higher,推奨解像度: 1366 x 768 以上,建議解析度: 1366 x 768 以上
+LAYERS,Layers,レイヤー,圖層
+COORD_X,X,X,X
+COORD_Y,Y,Y,Y
+COORD_Z,Z,Z,Z
+MAP_IMAGE_LOAD_FAILED,Map image failed to load,地図画像の読み込みに失敗しました,地圖影像載入失敗
+DND_PROMPT,Drag image here,ここにドロップしてください,將圖片拖曳到此處
+HOME_LINK_LABEL,RQ Adventurers' Inn home,RQ Adventurers' Inn ホーム,RQ Adventurers' Inn 首頁
+START_SUBTITLE,Load and explore the most widely used Glorantha maps in a GIS-like interface.,GISのような画面で、最も広く使われているグローランサ地図を読み込み探索できます。,在類 GIS 介面中載入並探索最常使用的耀蘭沙地圖。
+START_PUSH,Push Start,Push Start,Push Start
+CREDIT,Credit,Credit,Credit
+CREDIT_TITLE,Credit,Credit,Credit
+CREDIT_BODY_1,This site is a creation by the unofficial RuneQuest fan club RQ Adventurers' Inn.,このサイトはRuneQuestの非公式ファンクラブ RQ Adventurers' Innによる創作です。,本網站由非官方 RuneQuest 同好會 RQ Adventurers' Inn 創作。
+CREDIT_BODY_2,This is an unofficial fan-made work based on the world of RuneQuest / Glorantha.,RuneQuest / Glorantha の世界をベースにした非公式のファンメイド作品です。,這是以 RuneQuest / Glorantha 世界觀為基礎的非官方同人作品。
+CREDIT_BODY_3,RuneQuest and Glorantha are trademarks of Chaosium Inc. and all copyrights belong to the company.,RuneQuest と Glorantha は Chaosium Inc. の商標であり、著作権は同社に帰属します。,RuneQuest 與 Glorantha 為 Chaosium Inc. 的商標，著作權歸該公司所有。
+CREDIT_FONT_LABEL,Glorantha Core Rune font is used here.,Glorantha Core Rune フォントを使用しています。,此處使用 Glorantha Core Rune 字型。
+CREDIT_FONT_LINK_LABEL,Font link,Fontリンク,字型連結
+RETURN_TOP,Return Top,Return Top,Return Top
+GUIDANCE_TITLE,Guidance,Guidance,Guidance
+GUIDANCE_LEAD,Let's get a map.,Let's get a map.,Let's get a map.
+GUIDE_COLIN_TITLE,Colin's Map,Colin's Map,Colin's Map
+GUIDE_COLIN_SUBTITLE,Colin's Map,コリンズ マップ,Colin's Map
+GUIDE_COLIN_DESC,The most widely used map of Glorantha,最も使われるグローランサ地図,最常使用的耀蘭沙地圖
+GUIDE_COLIN_NOTE,You need to create a PNG from a PSD file.,添付PSDからPNGを作る必要があります。,你需要先從 PSD 檔製作 PNG。
+GUIDE_ASH_TITLE,Ashinoha's Map,Ashinoha's Map,Ashinoha's Map
+GUIDE_ASH_SUBTITLE,Ashinoha's Map,葦ノ葉 マップ,Ashinoha's Map
+GUIDE_ASH_DESC,A detailed Japanese edition of the Glorantha map,グローランサ地図の詳細な日本語版,耀蘭沙地圖的詳細日文版
+LINK_TO_JUMP,Link to Jump,Link to Jump,Link to Jump
+GUIDE_SECTION_TITLE,Enjoy GloranthaGIS.,GloranthaGISを楽しもう,享受 GloranthaGIS。
+GUIDE_SECTION_BODY,Choose a map to open the main screen with a PNG loaded.,地図を選ぶと、PNGを読み込んだメイン画面へ進みます。,選擇地圖後，會以前景載入 PNG 並進入主畫面。
+TEST_EXPERIENCE,Try Demo,体験版,體驗版
+OPEN_MAP,Open Map,Open Map,Open Map
+OPEN_MAP_HOVER,Open the world.,Open the world.,Open the world.
+OPEN_MAP_HELPER,Bring your map and explore.,Bring your map and explore.,Bring your map and explore.
+START_DIALOG_TITLE,Open Map,Open Map,Open Map
+START_DIALOG_BODY,Open the demo map or load your own PNG to continue.,体験版を開くか、手元のPNGを読み込んでメイン画面へ進みます。,開啟體驗版或載入自己的 PNG 以繼續。
+CLOSE,Close,閉じる,關閉
+HINT_TITLE,Hints,ヒント,提示
+HINT_ZOOM,Use the mouse wheel to zoom.,マウスホイールで拡大縮小,使用滑鼠滾輪縮放
+HINT_GRAB,Left click to grab.,左クリックでグリップ,按滑鼠左鍵抓取
+HINT_PAN,Drag while grabbing to pan.,グリップして移動でパン,抓取後拖曳即可平移
+HINT_LAYER,Toggle layers on and off.,レイヤーON・OFF,切換圖層顯示
+HINT_OPACITY,Adjust layer opacity.,透明度調整可,可調整透明度
+PLACE_JUMP_BUTTON,Place Jump,地名ジャンプ,地名跳轉
+MAP_HINT_ARIA_LABEL,Map interaction hints,地図操作ヒント,地圖操作提示
+HINT_CLOSE_ARIA_LABEL,Close hints,ヒントを閉じる,關閉提示
+TRAVEL_NOW,Now traveling,移動中,移動中
+PLACE_JUMP_TITLE,Place Jump,地名ジャンプ,地名跳轉
+PLACE_JUMP_SEARCH_LABEL,Search,検索,搜尋
+PLACE_JUMP_SEARCH_PLACEHOLDER,Search places,地名を検索,搜尋地名
+PLACE_JUMP_LIST_ARIA_LABEL,Place candidates,地名候補,地名候選
+PLACE_JUMP_GO,Start travel,移動開始,開始移動
+PLACE_JUMP_STATUS_READY,Select a destination.,移動先を選択してください。,請選擇目的地。
+PLACE_JUMP_EMPTY,No saved coordinates found,保存済み座標がありません,沒有已儲存的座標
+PLACE_JUMP_NOTHING_SELECTED,Nothing selected,未選択,未選擇
+PLACE_JUMP_DESTINATION_PREFIX,Destination,目的地,目的地
+PLACE_JUMP_STATUS_SELECT_FIRST,Select a candidate first.,先に候補を選択してください。,請先選擇候補。
+PLACE_JUMP_STATUS_LOAD_MAP_FIRST,Load a map first.,先に地図を読み込んでください。,請先載入地圖。
+PLACE_JUMP_STATUS_UNAVAILABLE_HERE,This cannot be used here.,ここでは使用できません,此處無法使用。
+PLACE_JUMP_STATUS_FAILED,Could not start travel.,移動を開始できませんでした。,無法開始移動。
+DISTANCE_IDLE,Distance,距離,距離
+DISTANCE_LABEL,Distance,距離,距離
+NOT_SUPPORTED,This app is not supported on iOS or Android.,このアプリは iOS / Android ではサポートされていません。,此應用程式不支援 iOS / Android。
+ACCESS_CLASS,Access Class,アクセス区分,存取分類
+ACCESS_CLASS_JAPANESE,Japanese,日本語,日本語
+ACCESS_CLASS_ENGLISH,English,英語,英文
+ACCESS_CLASS_GOLDEN,Golden,Golden,Golden
+UNLOCK_PASSWORD_LABEL,Enter password,パスワードを入力,輸入密碼
+UNLOCK_BUTTON,Unlock,解除,解鎖
+UNLOCK_INVALID_PASSWORD,Invalid password,パスワードが違います,密碼錯誤
+UNLOCK_FAILED,Unlock failed,解除に失敗しました,解鎖失敗
+UNLOCK_SUCCESS_JAPANESE,Japanese access unlocked,日本語アクセスを解除しました,已解鎖日文存取
+UNLOCK_SUCCESS_ENGLISH,English access unlocked,英語アクセスを解除しました,已解鎖英文存取
+UNLOCK_SUCCESS_GOLDEN,Golden access unlocked,Golden アクセスを解除しました,已解鎖 Golden 存取
+CIRCLE_PANEL_HINT,"Choose radius or diameter, enter km, then apply.",半径か直径を選び、km を入力して決定してください。,選擇半徑或直徑，輸入 km 後確認。
+LAYER_RUNES,Runes,ルーン,符文
+STATE_ON,ON,ON,ON
+STATE_OFF,OFF,OFF,OFF
+SCALE_LABEL,Scale,拡縮,縮放
+MOVE_AMOUNT_LABEL,Move amount,移動量,移動量
+TARGET_LABEL,Target,対象,對象
+RESET_TO_DEFAULT,Reset to default,この値に戻す,恢復預設值
+ADJUST_STATUS_DRAGGING,Dragging,ドラッグ中,拖曳中
+ADJUST_STATUS_ENABLED,Adjust with left drag.,左ドラッグで調整できます,可用左鍵拖曳調整。
+ADJUST_STATUS_DISABLED,Normal map interaction.,通常の地図操作中,一般地圖操作中。
+HEX_ADJUST_TITLE,HEX Adjust,HEX調整,HEX調整
+HEX_ADJUST_DRAG_ONLY,Only HEX moves with left drag.,左ドラッグで HEX だけ移動します。,左鍵拖曳時只移動 HEX。
+HEX_ADJUST_NO_MAP_PAN,This does not affect map panning.,地図パンには影響しません。,不會影響地圖平移。
+SQUARE_ADJUST_TITLE,SQU Adjust,SQU調整,SQU調整
+SQUARE_ADJUST_DRAG_ONLY,Only SQU moves with left drag.,左ドラッグで SQU だけ移動します。,左鍵拖曳時只移動 SQU。
+SQUARE_ADJUST_SLIDER_HINT,Use sliders to adjust move amount and scale.,スライダーで移動量と拡縮を調整します。,使用滑桿調整移動量與縮放。
+PLACE_COORDINATE_TITLE,Coordinate Register,座標登録,座標登錄
+PLACE_COORDINATE_LIST_ARIA_LABEL,Candidate list,候補一覧,候選清單
+PLACE_COORDINATE_REGISTER,Register,登録,登錄
+PLACE_COORDINATE_SAVE_CSV,Save CSV,CSV保存,儲存 CSV
+PLACE_COORDINATE_RECOVER_CSV,Recover CSV,CSV復旧,還原 CSV
+PLACE_COORDINATE_STATUS_LOADING,Loading CSV...,CSVを読み込み中...,正在載入 CSV...
+PLACE_COORDINATE_STATUS_LOADED,{count} candidates loaded.,{count}件の候補を読み込みました。,{count} 筆候選已載入。
+PLACE_COORDINATE_STATUS_LOAD_FAILED,Failed to load CSV.,CSVの読み込みに失敗しました。,CSV 載入失敗。
+PLACE_COORDINATE_EMPTY,No candidates,候補なし,沒有候選
+PLACE_COORDINATE_SELECTED_PREFIX,Selected,選択,已選擇
+PLACE_COORDINATE_SELECTED_MESSAGE,Selected {name}.,「{name}」を選択しました。,已選擇「{name}」。
+PLACE_COORDINATE_CENTER_PREFIX,Center,中央座標,中心座標
+PLACE_COORDINATE_CENTER_NO_MAP,No map loaded,地図未読込,地圖未載入
+PLACE_COORDINATE_CSV_META,"CSV X {x}, Y {y}","CSV X {x}, Y {y}","CSV X {x}, Y {y}"
+PLACE_COORDINATE_BROWSER_META,"BROWSER X {x}, Y {y}","BROWSER X {x}, Y {y}","BROWSER X {x}, Y {y}"
+PLACE_COORDINATE_SELECT_FIRST,Double-click a candidate to confirm.,候補をダブルクリックして確定してください。,請雙擊候選以確認。
+PLACE_COORDINATE_MAP_NOT_LOADED,Map is not loaded yet.,地図がまだ読み込まれていません。,地圖尚未載入。
+PLACE_COORDINATE_TARGET_NOT_FOUND,Selected item was not found.,選択対象が見つかりませんでした。,找不到已選項目。
+PLACE_COORDINATE_STAGED_REGISTERED,"Temporarily saved in browser: {name} -> X {x}, Y {y}","ブラウザに一時登録: {name} -> X {x}, Y {y}","已暫存於瀏覽器：{name} -> X {x}, Y {y}"
+PLACE_COORDINATE_DIRECT_SAVE_UNSUPPORTED,Direct CSV save is not supported in this environment.,この環境ではCSVへの直接保存に対応していません。,此環境不支援直接儲存 CSV。
+PLACE_COORDINATE_NO_STAGED_COORDS,There are no browser-staged coordinates.,ブラウザにためた座標がありません。,瀏覽器中沒有暫存座標。
+PLACE_COORDINATE_SAVE_DONE,CSV save complete: wrote {count} items.,CSV保存完了: {count}件を書き込みました。,CSV 儲存完成：已寫入 {count} 筆。
+PLACE_COORDINATE_SAVE_STATE_CHANGED,"CSV changed and could not be saved. Close the CSV and try Register again.","CSVの状態が変更されたため保存できません。CSVを閉じてから、もう一度登録を押してください。","CSV 狀態已變更而無法儲存。請先關閉 CSV，再重新按下登錄。"
+PLACE_COORDINATE_SAVE_FAILED,Failed to save CSV. Check that the CSV is not open in another app.,CSV保存に失敗しました。対象CSVが他アプリで開かれていないか確認してください。,CSV 儲存失敗。請確認目標 CSV 未被其他應用程式開啟。
+PLACE_COORDINATE_NO_RECOVER_DATA,There is no data in memory to recover.,復旧できるデータがメモリ上にありません。,記憶體中沒有可還原的資料。
+PLACE_COORDINATE_RECOVER_ABORT_EMPTY,Recovery from nearly empty data was stopped.,空に近いデータでのCSV復旧は停止しました。,已停止從近乎空白的資料還原 CSV。
+PLACE_COORDINATE_RECOVER_DONE,CSV recovery complete: restored {count} items from the current screen.,CSV復旧完了: {count}件を現在画面の内容で書き戻しました。,CSV 還原完成：已用目前畫面內容寫回 {count} 筆。
+PLACE_COORDINATE_RECOVER_FAILED,Failed to recover CSV.,CSV復旧に失敗しました。,CSV 還原失敗。
+PLACE_COORDINATE_PICK_CSV,Choose the CSV to save.,保存するCSVを選択してください。,請選擇要儲存的 CSV。
+PLACE_COORDINATE_PICK_CANCELLED,CSV selection was cancelled.,CSV選択がキャンセルされました。,已取消 CSV 選擇。
+PLACE_COORDINATE_WRONG_FILE,The selected file is not {name}.,選択ファイルが {name} ではありません。,所選檔案不是 {name}。
+PLACE_COORDINATE_WRITE_PERMISSION_DENIED,No write permission for the CSV.,CSVへの書き込み権限がありません。,沒有 CSV 的寫入權限。
+PLACE_COORDINATE_INVALID_OR_EMPTY,"CSV is empty or broken, so overwrite was stopped.","CSVが空または破損しているため、上書きを中止しました。","CSV 為空或已損壞，因此已停止覆寫。"
+CIRCLE_TOOL_BUTTON,Concentric circles,同心円,同心圓
+CIRCLE_RADIUS,Radius,半径,半徑
+CIRCLE_DIAMETER,Diameter,直径,直徑
+MEASURE_TOOL_BUTTON,Two-point measure,2点距離測定,兩點距離測量
+POLYLINE_TOOL_BUTTON,Route measure,折れ線距離測定,折線距離測量
+CENTER_MOVE_TOOL_BUTTON,Move center flag,中心旗移動,移動中心旗標
+TOOL_HINT_TITLE,Map tools,ツール,工具
+TOOL_HINT_CIRCLE,Dot button: create concentric circles.,「.」ボタン: 同心円を作成します。,「.」按鈕：建立同心圓。
+TOOL_HINT_MEASURE,"h button: place two points, then measure.",「h」ボタン: 2点を置いて距離を測定します。,「h」按鈕：放置兩點後測量距離。
+TOOL_HINT_POLYLINE,", button: place multiple points, then measure route length.","「,」ボタン: 複数点を置いて道のりを測定します。","「,」按鈕：放置多個點後測量路線距離。"
+TOOL_HINT_CENTER,X button: move the Boldhome flag.,「X」ボタン: ボールドホームの旗を移動します。,「X」按鈕：移動 Boldhome 旗標。
+APPLY_BUTTON,Apply,決定,決定
+MEASURE_APPLY,Measure,計測する,開始測量
+MEASURE_READY,2 points ready. Press measure.,2点が揃いました。計測してください。,已選好兩點。請開始測量。
+POLYLINE_READY,Route ready. Press measure.,経路が揃いました。計測してください。,路線已完成。請開始測量。
+CENTER_PICK_PROMPT,Click the center point.,中心をクリックしてください。,請點選中心點。
+MEASURE_POINT_PROMPT,Place two h markers.,h を2つ置いてください。,請放置兩個 h 標記。
+POLYLINE_POINT_PROMPT,Place comma markers.,"「,」を置いてください。","請放置「,」標記。"
+PIN_MOVE_PROMPT,Pick up the flag and click destination.,旗を持ち上げて移動先をクリックしてください。,拿起旗標後點選目的位置。
+TOOL_HINT_CIRCLE_DETAIL,button: create concentric circles.,ボタン: 同心円を作成します。,按鈕：建立同心圓。
+TOOL_HINT_MEASURE_DETAIL,"button: place two points, then measure.",ボタン: 2点を置いて測定します。,按鈕：放置兩點後測量。
+TOOL_HINT_POLYLINE_DETAIL,"button: place multiple points, then measure route length.",ボタン: 複数点を置いて道のりを測定します。,按鈕：放置多個點並測量路線長度。
+PLACE_JUMP_HINT,button: open Place Jump.,ボタン: 地名ジャンプを開きます。,按鈕：開啟地名跳轉。
+MEASURE_POINT_PROMPT_SHORT,place two markers.,を2つ置いてください。,請放置兩個標記。
+POLYLINE_POINT_PROMPT_SHORT,place markers.,を置いてください。,請放置標記。
+CENTER_PICK_PROMPT_SHORT,Click the center point.,中心を指定してください。,請指定中心點。

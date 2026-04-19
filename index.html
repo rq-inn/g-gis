@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title></title>
+
+  <meta name="theme-color" content="#0b0d10" />
+  <meta name="background-color" content="#0b0d10" />
+
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" href="./images/icon-64.png" type="image/png" />
+  <link rel="stylesheet" href="./style.css" />
+  <script>
+    (function () {
+      var STORAGE_KEY = 'GGIS_LANG';
+      var saved = '';
+      try {
+        saved = (localStorage.getItem(STORAGE_KEY) || '').trim();
+      } catch (_) {}
+
+      var browserLanguages =
+        Array.isArray(navigator.languages) && navigator.languages.length
+          ? navigator.languages
+          : [navigator.language, navigator.userLanguage].filter(Boolean);
+
+      function normalizeLanguage(value) {
+        return String(value || '').trim().toLowerCase().replace(/_/g, '-');
+      }
+
+      function detectBrowserLanguage() {
+        for (var i = 0; i < browserLanguages.length; i += 1) {
+          var normalized = normalizeLanguage(browserLanguages[i]);
+          if (!normalized) continue;
+          if (normalized === 'ja' || normalized.indexOf('ja-') === 0) return 'L2';
+          if (normalized === 'zh' || normalized.indexOf('zh-') === 0) return 'L3';
+        }
+        return 'L1';
+      }
+
+      var langNumber = saved || detectBrowserLanguage();
+      if (langNumber !== 'L1' && langNumber !== 'L2' && langNumber !== 'L3') {
+        langNumber = detectBrowserLanguage();
+      }
+
+      var htmlLang = langNumber === 'L2' ? 'ja' : (langNumber === 'L3' ? 'zh-Hant' : 'en');
+      document.documentElement.lang = htmlLang;
+      document.documentElement.setAttribute('data-initial-lang-number', langNumber);
+      window.__GGIS_BOOT_LANG__ = langNumber;
+    }());
+  </script>
+  <script>
+    (function () {
+      var ua = (navigator.userAgent || '').toLowerCase();
+      var isMobile =
+        ua.includes('android') ||
+        ua.includes('iphone') ||
+        ua.includes('ipad') ||
+        ua.includes('ipod') ||
+        (ua.includes('macintosh') && ua.includes('mobile')) ||
+        ua.includes('mobi');
+      if (isMobile) {
+        document.documentElement.setAttribute('data-mobile-unsupported', 'true');
+      }
+    }());
+  </script>
+  <style>
+    html[data-mobile-unsupported="true"] #globalLanguageArea,
+    html[data-mobile-unsupported="true"] #distanceReadout,
+    html[data-mobile-unsupported="true"] #app,
+    html[data-mobile-unsupported="true"] #screenRoot {
+      display: none !important;
+    }
+
+    html[data-mobile-unsupported="true"] #unsupportedMobileScreen {
+      display: flex !important;
+    }
+
+    #unsupportedMobileScreen {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #808080;
+      color: #ffffff;
+      text-align: center;
+      font-size: clamp(36px, 7vw, 64px);
+      font-weight: 700;
+      line-height: 1.25;
+      white-space: pre-line;
+      z-index: 2147483647;
+    }
+  </style>
+</head>
+<body>
+  <div id="globalLanguageArea" class="gg-global-language"></div>
+  <div id="distanceReadout" class="gg-distance-readout" aria-live="polite"></div>
+  <div id="app"></div>
+  <div id="screenRoot"></div>
+  <div id="unsupportedMobileScreen" aria-live="polite"></div>
+
+  <script src="./js/logic/csv.js" defer></script>
+  <script src="./js/logic/i18n.js" defer></script>
+  <script src="./js/logic/access_table.js" defer></script>
+  <script src="./js/logic/access_auth.js" defer></script>
+  <script src="./js/logic/os_detect.js" defer></script>
+  <script src="./js/logic/resolution.js" defer></script>
+  <script src="./js/logic/layer_spec.js" defer></script>
+  <script src="./js/logic/mapsets_loader.js" defer></script>
+  <script src="./js/logic/map_view.js" defer></script>
+  <script src="./js/logic/layer_stack.js" defer></script>
+  <script src="./js/ui/language_select.js" defer></script>
+  <script src="./js/ui/entry_notices.js" defer></script>
+  <script src="./js/ui/access_ui.js" defer></script>
+  <script src="./js/ui/unlock.js" defer></script>
+  <script src="./js/ui/map_canvas.js" defer></script>
+  <script src="./js/ui/coords_hud.js" defer></script>
+  <script src="./js/ui/place_coordinate_tool.js" defer></script>
+  <script src="./js/ui/map_tools.js" defer></script>
+  <script src="./js/ui.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
