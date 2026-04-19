@@ -121,5 +121,25 @@
   <script src="./js/ui/map_tools.js" defer></script>
   <script src="./js/ui.js" defer></script>
   <script src="./js/main.js" defer></script>
+  <script>
+    (function () {
+      if (!("serviceWorker" in navigator)) return;
+
+      var reloadedByServiceWorker = false;
+      navigator.serviceWorker.addEventListener("controllerchange", function () {
+        if (reloadedByServiceWorker) return;
+        reloadedByServiceWorker = true;
+        window.location.reload();
+      });
+
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./service-worker.js").then(function (registration) {
+          registration.update();
+        }).catch(function (error) {
+          console.error("[service-worker] register failed:", error);
+        });
+      });
+    }());
+  </script>
 </body>
 </html>
